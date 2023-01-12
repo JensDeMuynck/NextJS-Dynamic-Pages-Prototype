@@ -19,7 +19,7 @@ export default function DynamicPage(props) {
 export async function getServerSideProps(context) {
 	// const data = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'cms', 'pages.json'), 'utf-8'));
 
-	const res = await fetch('https://raw.githubusercontent.com/JensDeMuynck/cms-pages-test/main/cms-pages.json');
+	const res = await fetch('https://raw.githubusercontent.com/JensDeMuynck/NextJS-Dynamic-Pages-Prototype/master/cms/pages.json?token=GHSAT0AAAAAAB5NQ3O7HZVBAZVX4G42L65KY6APORQ');
 	const data = await res.json();
 	console.log(data);
 
