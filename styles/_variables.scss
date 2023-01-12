@@ -1,0 +1,22 @@
+$font-family-primary: 'Signika', sans-serif;
+$font-family-secondary: 'Roboto', sans-serif;
+
+$gray-4: #939393;
+$gray-7: #424446;
+$gray-9: #131313;
+
+$black: #070707;
+$white: #FFFFFF;
+$red: #de3541;
+
+$breakpoints: (
+	xl: 1500,
+	lg: 1080,
+	md: 900,
+	sm: 640,
+	xs: 520,
+	ty: 375
+);
+
+$spacer:					20px;
+$spacer-lg:					$spacer*2.5;

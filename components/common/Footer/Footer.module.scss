@@ -1,0 +1,10 @@
+.Footer :global {
+	position: fixed;
+	bottom: 0;
+	background: $gray-9;
+	width: 100%;
+	text-align: center;
+	padding: 0.75em;
+	font-size: 0.75rem;
+	color: $white;
+}
